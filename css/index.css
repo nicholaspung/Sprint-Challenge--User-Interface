@@ -216,17 +216,30 @@ footer nav a {
 }
 
 .about-middle-section {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     padding: 0 2%;
     justify-content: space-between;
-    margin: 25px 0;
+    margin: 25px 0 30px;
 }
 
 .about-middle-content {
-    border: 1px solid red;
-    width: 49%;
+    width: 48%;
     padding: 20px 0;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content img {
+    width: 100%;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 7.5px;
+    padding: 7.5px 20px;
+    margin: 15px 0 10px;
+}
+
+.border-grey {
+    border-color: grey;
 }
