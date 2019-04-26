@@ -215,29 +215,37 @@ footer nav a {
     border-bottom: 1px dashed black;
 }
 
+.about-description-bottom {
+    padding: 0 2%;
+    padding-bottom: 40px;
+}
+
 .about-middle-section {
     display: flex;
     flex-wrap: wrap;
     padding: 0 2%;
     justify-content: space-between;
-    margin: 25px 0 30px;
+    margin-bottom: 30px;
 }
 
 .about-middle-content {
     width: 48%;
     padding: 20px 0;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
 .about-middle-content img {
     width: 100%;
+    padding-bottom: 15px;
 }
 
 button {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 7.5px;
     padding: 7.5px 20px;
-    margin: 15px 0 10px;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 .border-grey {
