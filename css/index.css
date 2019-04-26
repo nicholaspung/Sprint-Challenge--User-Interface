@@ -208,3 +208,8 @@ footer nav a {
 .middle-content .boxes .box-10 {
     background: dodgerblue;
 }
+
+.about-description {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
