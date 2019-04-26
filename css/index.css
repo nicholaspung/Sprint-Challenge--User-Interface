@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-image {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
